@@ -1,0 +1,31 @@
+html 
+    head    
+        title info     
+    body 
+
+        h1 Edit Person
+        br
+        br
+        form(method ="post", action= "/")
+            div     
+                label(for="username") Username: 
+                input(id="username", name= "username" required value =user.username)
+            div 
+                label(for="name") Name: 
+                input(id="name", name= "name" type="name" required value =user.name)
+            div 
+                label(for="age") Age: 
+                input(id="age", name= "age" type="number" value =user.age)
+            div 
+                label(for="email") Email: 
+                input(id="email", name= "email" type="email" required value =user.email)
+            div 
+                label(for="address") Address: 
+                input(id="address", name= "address" type="address" required value =user.address)
+
+
+            input(type="submit")
+            
+
+
+        

@@ -1,0 +1,32 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: left;
+    padding:8px
+}
+
+tr:nth-child(even){
+    background-color:rgb(182, 182, 182)
+}
+
+.pad{
+    display: flex;
+    gap: 5px;
+}
+.point{
+    cursor: pointer;
+    padding: 2px;
+}
+.fa-solid{
+    transition:1s;
+    color:black;
+}
+.fa-solid:hover{
+    transition:1s;
+    color:gray;
+}

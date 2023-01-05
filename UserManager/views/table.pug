@@ -1,0 +1,32 @@
+html 
+    head    
+        title login    
+        link(rel="stylesheet", href="/style.css")
+        script(src="https://kit.fontawesome.com/4d02def751.js", crossorigin="annoymous")
+    body    
+        table   
+            tr 
+                th Username
+                th Name
+                th Age
+                th Email 
+                th Adress  
+                th Edit
+
+            
+            each val in user 
+                tr 
+                    td= val.username 
+                    td= val.name
+                    td= val.age
+                    td= val.email
+                    td= val.address
+                    td.pad 
+                        a(href="/editUser/"+val.username)
+                            i.fa-solid.fa-pen-to-square.point#edit
+                        a(href="/delete/"+val.username)
+                            i.fa-solid.fa-trash.point#delete
+
+
+        br
+        a(href="/") Make New User
