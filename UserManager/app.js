@@ -14,7 +14,7 @@ let update = false
 let employ =  [
     {username: "BobRoss",name:"Bob Ross", age:52, email: "bobross@gmail.com", address: "442 painting Road "},
     {username: "McDuck", name: "Scruge McDuck", age: 154, email: "McDuck@mcduckenterprise.gold", address:"Duckburg, Calisota, United States"},
-    {username: "DarthVader", name: "Anakin Skywalker", age: 45, email: "Darthvader@sith4Me", address:"Death Star 154 Floor Room 112"},
+    {username: "DarthVader", name: "Anan Skywalker", age: 45, email: "Darthvader@sith4Me", address:"Death Star 154 Floor Room 112"},
     {username: "ToothLess", name: " Hiccup Horrendous Haddock III", age: 15, email: "Dragon4Me@Gmail.com", address:"Berk"},
 
 ]
